@@ -33,7 +33,11 @@ workshop_guide:
 
 workshop_servicemesh:
   operatorhub_channel: stable
+<<<<<<< HEAD
   operatorhub_csv: servicemeshoperator.v2.0.8
+=======
+  operatorhub_csv: servicemeshoperator.v2.0.8.0
+>>>>>>> upstream/development
 
 workshop_elasticsearch:
   operatorhub_channel: stable
