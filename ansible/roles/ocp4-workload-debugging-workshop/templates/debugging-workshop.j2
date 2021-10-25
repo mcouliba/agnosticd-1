@@ -21,7 +21,7 @@ spec:
       enabled: true
       operatorHub:
         channel: {{ workshop_gitops.operatorhub_channel }}
-        clusterServiceVersion: {{ workshop_gitops.operatorhub_csv }}
+        clusterServiceVersion: "{{ workshop_gitops.operatorhub_csv }}"
     guide:
       scholars:
         enabled: true
